@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/login.css">
+    <style>
+        .error{
+            color: red;
+            font-size: 12px;
+        }
+        .err{
+            color: red;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h2>
+            <a href="index.html">
+                <img src="https://www.lecuntao.com/shop/templates/default/images/logoIco.png" alt="">
+            </a>
+            <i></i>
+            <span>用户注册</span>
+        </h2>
+        <p>
+            <a href="index.html">返回平台首页></a>
+        </p>
+    </div>
+    <div class="rig_main">
+        <div class=rigbox>
+            <form action="http://10.31.155.138/projectname/php/registor.php" method="POST" id="form1">
+                <ul>
+                    <li >
+                        <i style=" background-position: -40px 0"></i>
+                        <input type="text" name="username" placeholder="请输入你的手机号" id="username">
+                        <label id="username-error" class="error" for="username">(必填，请输入11位手机号)</label>
+                    </li>
+                    <li >
+                        <i style=" background-position: -41px -28px"></i>
+                        <input type="text"  placeholder="请输入短信验证码" >
+                    </li>
+                    <li >
+                        <i style=" background-position: 0 -45px"></i>
+                        <input type="password" name="password" placeholder="请输入密码"  id="password">  
+                        <label id="password-error" class="error" for="password">(必填，不得少于6位)</label>              
+                    </li>
+                    <li >
+                        <i style=" background-position: 0 -45px"></i>
+                        <input type="password" name="repassword" placeholder="请再次输入密码" id="repassword">
+                        <label id="repass-error" class="error" for="repassword">(必填，不得少于6位)</label>
+                    
+                    </li>
+                </ul>
+                <div class="rig_bot"> 
+                    <h2>点击注册表示您同意乐村淘<a href="#">《服务协议》</a>。</h2>
+                    <input type="submit" name="submit" class="rig_a1" value="注册" ></a>
+                    <a href="#"class="rig_a2">已有账号？请登录</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+    <script src="http://10.31.155.138/projectname/src/script/js/registor.js"></script>
+</body>
+</html>

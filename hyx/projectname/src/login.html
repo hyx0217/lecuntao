@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/login.css">
+    <style>
+      .loginsb em{
+          font-size: 16px;
+          margin-left: 20px;
+          color: red;
+          line-height: 24px;
+          display: none;
+          font-style: normal;
+      }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h2>
+            <a href="index.html">
+                <img src="https://www.lecuntao.com/shop/templates/default/images/logoIco.png" alt="">
+            </a>
+            <i></i>
+            <span>用户登录</span>
+        </h2>
+        <p>
+            <a href="index.html">返回平台首页></a>
+        </p>
+    </div>
+    <div id="main">
+        <div class="loginbox">
+            <h3>登录乐村淘会员
+                <span></span>
+            </h3>
+            <div class="loginsb">
+                <form id="form2">
+                    <em >用户名不存在或者密码错误</em>
+                    <ul>
+                        <li class="loginuser">
+                            <i></i>
+                            <input type="text" name="username" placeholder="邮箱/用户名/已验证手机" class="user" >
+                        </li>
+                        <li class="loginpsd">
+                            <i></i>
+                            <input type="password" name="password" placeholder="请输入密码" class="pass">
+                        </li>
+                        <li class="loginpass">
+                            <input type="checkbox" name="">两天内自动登录
+                            <a href="registor.html">忘记密码？</a>
+                        </li>
+                        <li class="logintest">
+                            <i></i>
+                            <input type="text" placeholder="请输入验证码">
+                        </li>
+                        <li class="loginvist">
+                            <input type="button" value="登录" name="submit" class="btn">
+                        </li>
+                        <li>
+                            <span style="color: #666666;
+                            font-size: 14px;">还没有账户？
+                                <a href="registor.html">立即注册</a>
+                            </span> 
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="http://10.31.155.138/projectname/src/script/js/jquery.cookie.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+    <script src="http://10.31.155.138/projectname/src/script/js/registor.js"></script>
+</body>
+</html>

@@ -1,0 +1,198 @@
+.nav_m dl{
+    z-index: 0;
+}
+.nav_m dl:hover{
+    z-index: 3;
+}
+.appear{
+    visibility: hidden;
+}
+.nav_m_lt dt:hover+.appear{
+    visibility: visible;
+
+}
+.appear:hover{
+    visibility: visible;
+
+}
+.goods{
+    margin-top:40px;
+    display: table;
+    margin-bottom: 10px;
+    border: solid 1px #EEE;
+    z-index: 2;
+}
+.goods_img{
+    display: table;
+    margin-bottom: 10px;
+    border: solid 1px #EEE;
+    z-index: 2;
+    float: left;
+    position: relative;
+}
+.goods_sale{
+    position: relative;
+    background-color: #FAFAFA;
+    float: left;
+    width: 622px;
+    min-height: 460px;
+    border-right: solid 1px #EEE;
+    box-shadow: inset 4px 0 1px rgba(153,153,153,0.15);
+}
+.goods_img ul li{
+    float: left;
+}
+.goods_price{
+    background: url(http://www.lecuntao.com/shop/templates/default/images/msbg.jpg?v=4ab264ba9c) 0 0 no-repeat;
+    height: 95px;
+    padding: 10px 0;
+    position: relative;
+    z-index: 1;
+    box-shadow: inset 4px 0 1px rgba(153,153,153,0.15);
+}
+.goods dt{
+    font-family: simsun;
+    text-align: right;
+    width: 96px;
+    margin-right: 6px;
+    font-size: 12px;
+    line-height: 20px;
+    vertical-align: bottom;
+    letter-spacing: normal;
+    word-spacing: normal;
+    display: inline-block;
+    min-height: 20px;
+    padding: 2px 0;
+    color: #fff;
+
+}
+.goods dd{
+    font-size: 12px;
+    line-height: 24px;
+    vertical-align: top;
+    letter-spacing: normal;
+    word-spacing: normal;
+    display: inline-block;
+    padding: 2px 0;
+    text-align: left;
+    width: 510px;
+    color: #fff;
+}
+.goods_price dd span{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    vertical-align: middle;
+}
+.goods_title{
+    padding: 15px 25px;
+    min-height: 58px;
+}
+.goods_title h2{
+    font: 700 16px/21px Tahoma;
+    color: #333;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    overflow: hidden;
+}
+.goods_coment{
+    text-align: center;
+    width: 100px;
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    right: 5px;
+}
+.goods_send dt {
+    color: #333
+}
+.goods_send dd{
+    color: #333;
+}
+.btnlt, .btnrt{
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    border: 1px solid #ccc;
+    background-color: #dddddd;
+    display: inline-block;
+    font-style: normal;
+    cursor: pointer;
+}
+.buynum{
+    width: 44px ;
+    height: 24px ;
+    line-height: 24px;
+    border: 1px solid #ccc;
+    text-align: center;
+    color: black;
+    outline: none;
+    padding: 0;
+    display: inline-block;
+    vertical-align: bottom;
+}
+.goods_shop{
+    display: inline-block;
+    margin: 50px 0 0 20px;
+    position: relative;
+    z-index: 7;
+}
+.goods_shop a{
+    position: relative;
+    left: 10px;
+    background-color: #D93600;
+    font: lighter 16px/20px "Microsoft Yahei";
+    color: #FFF;
+    text-align: center;
+    display: inline-block;
+    height: 20px;
+    padding: 10px 20px;
+    border-radius: 3px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 0 2px rgba(204,204,204,0.25);
+}
+.goods_shop a i{
+    font-size: 17px;
+    margin-right: 6px;
+}
+.goods_img div>img{
+    width: 360px;
+    height: 360px;
+}
+.goods_img div{
+    position: relative;
+    overflow: hidden;
+}
+.goods_img ul{
+    height: 55px;
+    overflow: hidden;
+}
+.goods_img ul li{
+    margin: 5px 5px 0 0;
+    float: left;
+}
+.goods_img ul li img{
+    height: 50px;
+    width: 50px;
+}
+.goods_img div span{
+    position: absolute;
+    background:rgba(255, 0, 0, 0.3);
+    top:0;
+    display: none;
+}
+.goods_img p{
+    position: absolute;
+    width: 360px;
+    height: 362px;
+    overflow: hidden;
+    left: 367px;
+    top:0;
+    display: none;
+    border: 1px solid #ccc;
+}
+.goods_img p img{
+    position: relative;
+}
